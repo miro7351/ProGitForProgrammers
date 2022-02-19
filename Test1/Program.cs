@@ -11,6 +11,8 @@ namespace Test1
             WriteLine("Hello World!");
             WriteLine("Kod pridany na PC 10:10 hod");
 
+            WriteLine("Kod pridany na NB Dell 10:31 hod");
+
             Write("\n\nKoniec, stlac klavesu>");
             ReadKey();
         }
