@@ -1,4 +1,5 @@
 ﻿using System;
+using static System.Console;
 
 namespace Test1
 {
@@ -7,7 +8,11 @@ namespace Test1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            WriteLine("Hello World!");
+            WriteLine("Kod pridany na PC 10:10 hod");
+
+            Write("\n\nKoniec, stlac klavesu>");
+            ReadKey();
         }
     }
 }
